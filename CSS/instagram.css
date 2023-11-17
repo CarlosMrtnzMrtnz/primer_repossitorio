@@ -1,3 +1,57 @@
-.row {
+/* .row {
     transform: translate();
+} */
+
+/* .fondoTelefono {
+height: 600px;
+background-color: aquamarine;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+background-image: url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk);
+} */
+
+.fondoTelefono {
+    height: 600px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk);
+}
+
+.sliderImagenes {
+    height: 550px;
+}
+
+.divPeye {
+    width: 240px;
+    transform: translate(245px, 26px);
+}
+
+.contenedorGeneral {
+    padding-top: 8%;
+}
+
+@media (max-width: 1399px) {
+    .divPeye {
+        transform: translate(200px, 26px);
+    }
+}
+
+@media (max-width: 1200px) {
+    .divPeye {
+        transform: translate(155px, 26px);
+    }
+}
+
+.linea1 {
+    top: 0.5em;
+    height: 1px;
+    flex-shrink: 1px;
+    position: relative;
+    flex-grow: 1;
+    display: block;
+
+    background-color:#807777;
+
 }
